@@ -4,7 +4,9 @@ apiVersion: v2
 appVersion: 4.4.6
 dependencies:
   - name: common
-    repository: https://charts.bitnami.com/bitnami
+    #repository: https://charts.bitnami.com/bitnami
+    #repository: file://../common
+    repository: https://helmcharts.telviva.com/
     tags:
       - bitnami-common
     version: 1.x.x
